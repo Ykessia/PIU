@@ -4,7 +4,9 @@ function Teste (){
     const label = "Mensagem"
     function handleClick(){
         return(
-            
+            <div>
+                <h1>oii</h1>
+            </div>
         )
     }
     return (
