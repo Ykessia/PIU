@@ -1,25 +1,19 @@
-import "./Teste.css"
+// import "./Teste.css"
 
-function Teste (){
-    const label = "Mensagem"
-    function handleClick(){
-        return(
-            <div>
-                <h1>oii</h1>
-            </div>
-        )
-    }
-    return (
-        <>
-        <div id="teste">
-            <h2>Testando aqui</h2>
-        </div>
-        <div>
-            <button onClick={handleClick}>{label}</button>
-        </div>
+// function Teste (){
+//     function handleColor(){
+//         const cor= ["skyblue", "pink"];
+//         const randomColor = cor[Math.floor(Math.random() * cor.length)];
+//         document.body.style.backgroundColor = randomColor;
+//     }
+//     return (
+//         <>
+//         <div>
+//             <button onClick={handleColor}>Mudar cor</button>
+//         </div>
 
-        </>
-    )
-}
+//         </>
+//     )
+// }
 
-export default Teste
+// export default Teste

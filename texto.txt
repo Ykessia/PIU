@@ -1,0 +1,8 @@
+node -v
+npm -v  ----- gerenciador de pacotes
+
+react.js ----- desenvolvido para aplicações de página única
+npm create vite@latest  
+cd nomedoteste
+npm install 
+npm run dev
