@@ -1,0 +1,19 @@
+.tema.light {
+  background-color: #f0f0f0;
+  color: #222;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.tema.dark {
+  background-color: #222;
+  color: #eee;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.tema button {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}

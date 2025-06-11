@@ -1,0 +1,25 @@
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.tarefa.light {
+  background-color: #fafafa;
+  color: #222;
+  border: 1px solid #ccc;
+}
+
+.tarefa.dark {
+  background-color: #444;
+  color: #eee;
+  border: 1px solid #666;
+}
+
+.tarefa.concluida span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
