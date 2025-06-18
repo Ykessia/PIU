@@ -10,11 +10,11 @@ export default function Tema() {
   };
 
   return (
-    <div className={`tema ${tema}`}>
+    <div className={{tema}}>
       <button onClick={alternarTema}>
         Alternar Tema ({tema === 'light' ? 'Claro' : 'Escuro'})
       </button>
       <Dash tema={tema} />
     </div>
   );
-}
+} 
