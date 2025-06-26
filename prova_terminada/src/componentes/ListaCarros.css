@@ -1,0 +1,14 @@
+.lista-carros {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: palegoldenrod;
+}
+
+.lista-carros h2 {
+  color: #333;
+}
+
+.lista-carros ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
