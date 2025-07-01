@@ -1,0 +1,48 @@
+form input{
+    padding: 5px;
+    margin: 10px;
+}
+
+.lista {
+  width: 300px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #c5c5c5;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+li.concluida {
+  background-color: #c3ffc3;
+}
+
+li.nao-realizada {
+  background-color: #f8d7da;
+}
+
+li.pendente {
+  background-color: #fff3cd;
+}
+
+li button {
+  background-color: #007bff;
+  color: white;
+  padding:10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 5px;
+}
+
+#bt-posicao {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
