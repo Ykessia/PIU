@@ -25,12 +25,6 @@ export default function EffectAPI() {
     return <p>Carregando...</p>;
   }
 
-  if (idNum >= 1) {
-    if (idNum <= 10) {
-      filtrados = albuns.filter(item => item.userId === idNum);
-    }
-  }
-
   return (
     <div>
       <h1>Lista de Álbuns</h1>
