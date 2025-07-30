@@ -34,7 +34,7 @@ export default function EffectAPI() {
   return (
     <div>
       <h1>Lista de Álbuns</h1>
-      <input type="number" placeholder="Digite um userID (1-10)" min="1" max="10" value={userId} onChange={e => setUserId(e.target.value)}/>
+      <input type="number" placeholder="Digite um ID (1-10)" min="1" max="10" value={userId} onChange={e => setUserId(e.target.value)}/>
       <ul>
         {filtrados.map(item => (
           <li key={item.id}>{item.title}</li>
