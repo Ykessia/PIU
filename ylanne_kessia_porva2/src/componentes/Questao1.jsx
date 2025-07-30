@@ -22,7 +22,7 @@ export default function MudarFundoCor() {
         style={{ padding: '8px', fontSize: '16px', border: '1px solid black', borderRadius: '4px', backgroundColor: 'white', color: 'black',
         }}
       />
-      <button onClick={() => setNumero(numero + 1)}>enviar</button>
+      <button onClick={() => setNumero(numero)}>enviar</button>
     </div>
   );
 }
